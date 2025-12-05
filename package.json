@@ -1,0 +1,24 @@
+{
+  "name": "grippi-campaigns_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix Frontend\" \"npm run dev --prefix Backend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhu9921/Grippi_Assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhu9921/Grippi_Assignment/issues"
+  },
+  "homepage": "https://github.com/shubhu9921/Grippi_Assignment#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
