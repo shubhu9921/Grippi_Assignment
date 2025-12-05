@@ -2,8 +2,8 @@ from fastapi import FastAPI, Depends
 from sqlalchemy.orm import Session
 from fastapi.middleware.cors import CORSMiddleware
 
-from database import Base, engine, SessionLocal
-from models import Campaign
+from .database import Base, engine, SessionLocal
+from .models import Campaign
 
 # Create tables automatically
 Base.metadata.create_all(bind=engine)
