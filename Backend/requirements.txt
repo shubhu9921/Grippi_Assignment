@@ -1,6 +1,7 @@
 fastapi
 uvicorn
+mangum
 sqlalchemy
 pydantic
-psycopg2-binary   # only if using PostgreSQL
-python-dotenv
+requests
+python-multipart

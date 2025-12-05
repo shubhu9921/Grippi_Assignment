@@ -16,9 +16,10 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      let url = "http://127.0.0.1:8000/campaigns";
-      if (statusFilter) url += `?status=${statusFilter}`;
-      const res = await fetch(url);
+      let url = "https://grippi-assignment.onrender.com/campaigns";
+if (statusFilter) url += `?status=${statusFilter}`;
+const res = await fetch(url);
+
       const data = await res.json();
       setCampaigns(data);
     } catch (err) {
